@@ -16,5 +16,7 @@ and more and more features like:-
 ➔ Basic Calculation can be done using keyword 'cal'
 
 which can be interacted in one interface.
-**NOTE:**All the above keywords have to typed before typing anything.
+
+**NOTE:**
+All the above keywords have to typed before typing anything.
 
