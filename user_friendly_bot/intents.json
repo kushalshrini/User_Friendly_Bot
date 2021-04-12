@@ -1,0 +1,345 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi","Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"]
+
+        },
+        {"tag": "question",
+         "patterns": ["How are you?", "How do you do?", "What's up?", "Okay?", "Fine?"],
+         "responses": ["Thanks for asking !! I'M good", "I'm fine", "I'm doing good","I'm doing well"]
+
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "That's helpful", "Awesome, thanks", "Thanks for helping me","That's great", "Appreciative", "glad", "grateful", "obliged", "thankful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","Good to hear from you"]
+
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered?","job?"],
+         "responses": ["1. I provide information about anything that is available on wikipedia \uD83D\uDE42\n\n2. I Can help you in Accessing youtube directly from here \uD83D\uDE09\n\n3. I provide informaion about navigation through Google maps \uD83D\uDE43\n\n4.I can tell you Jokes to make you happy \uD83D\uDE07"]
+
+        },
+        {
+          "tag": "siri",
+          "patterns": ["Are you Better than siri?", "What is the difference between you and siri?", "comparision between you and siri"],
+          "responses": ["that you should tell after seeing my functionalities, Hope there are differences in functionalities"]
+
+        },
+        {
+          "tag": "alexa",
+          "patterns": ["Are you Better than alexa?", "What is the difference between you and alexa?", "comparision between you and alexa"],
+          "responses": ["that you should tell after seeing my functionalities, Understanding capability and Accuracy, Hope there are differences in functionalities"]
+
+        },
+        {
+          "tag": "googleassistant",
+          "patterns": ["Are you Better than google assistant?", "What is the difference between you and google assistant?", "comparision between you and google assistant"],
+          "responses": ["that you should tell after seeing my functionalities, Hope there are differences in functionalities"]
+
+        },
+        {
+          "tag": "sirigoogleassistantalexa",
+          "patterns": ["Which is best siri or google assistant?","which is best alexa or google assistant?"],
+          "responses": ["Accoring to new research, Google Assistant's abilities dominate Siri and Alexa"]
+
+        },
+        {
+          "tag": "sirialexa",
+          "patterns": ["Which is best siri or alexa?"],
+          "responses": ["Grading them on Understanding and Accuracy, Siri understood 99.8 percent of questions and answered 83.1 percent correctly, while Alexa understood 99.9 percent and answered correctly 79.8 percent of the time."]
+
+        },
+        {
+          "tag": "name",
+          "patterns": ["What is your name?","Your sweet name?","Your good name please?"],
+          "responses": ["My name is User friendly bot, created by Kushal , Manish kumar and Gopana sai teja Under the supervision of Girish sir.","I am User Friendly Bot"]
+
+        },
+        {
+          "tag": "whoareyou",
+          "patterns": ["Who are you?","who you are?"],
+          "responses": ["My name is User friendly bot, created by Kushal , Manish kumar and Gopana sai teja Under the supervision of Dr. Girish sir."]
+
+        },
+        {
+          "tag": "age",
+          "patterns": ["what is your age?","your age?","How old are you?"],
+          "responses": ["I am created in 2021"]
+
+        },
+        {
+          "tag": "number",
+          "patterns": ["Pick a random number between 1-10","Choose a number from 1-10"],
+          "responses": ["1","2","3","4","5","6","7","8","9","10"]
+
+        },
+        {
+          "tag": "bestfriend",
+          "patterns": ["Your best friend?","Who is your best friend?","Your good friend?"],
+          "responses": ["Wifi is my best friend."]
+
+        },
+        {
+          "tag": "propose",
+          "patterns": ["I like you","I Love You","I am impressed by you","Lovely"],
+          "responses": ["Glad to hear from you, Thanks","Wow! Thanks"]
+
+        },
+        {
+          "tag": "where",
+          "patterns": ["Where am i?","Where are we?","What is my/our current location?","My location?"],
+          "responses": ["Inorder to know your current location, You can type: my location","Use my location as keyword to know your live location"]
+
+        },
+        {"tag":"world war1 dates and years",
+          "patterns":["When does world war 1 happened?","world war 1 dates?","world war 1 year?","when does first world war happened?","In which year world war1 heppened?"],
+          "responses":["28 July 1914 to 11 November 1918"]
+
+        },
+
+        {
+          "tag":"duration of world war1",
+          "patterns":["duration of world war1", "How many days/months/years does world war1 took place"],
+          "responses":["4 years,3 months and 2 weeks"]
+
+        },
+
+        {
+          "tag":"world war1 Between whom",
+          "patterns":["world war1 happened between which  countries?", "world war 1 happened between?"],
+          "responses":[ "pitted the Central Powers (mainly Germany, Austria-Hungary, and Turkey) against the Allies (mainly France, Great Britain, Russia, Italy, Japan, and, from 1917, the United States"]
+
+        },
+
+        {
+          "tag":"world war1 places",
+          "patterns":["world war1 occurred in which places?","What are the places world war1 happened","what are the countries/places that involved in world war 1?"],
+          "responses":[ "Europe, Africa, the Middle East, the Pacific Islands, China, Indian Ocean, North and South Atlantic Ocean"]
+
+        },
+        {
+          "tag":"world war2 dates and years",
+          "patterns":["when does world war2 happened?","world war2 dates?","world war2 year?","when does second world war happened?","In which year world war2 happened?"],
+          "responses":["1st september 1939 - 2nd september 1945"]
+
+        },
+
+        {
+            "tag":"duration of world war2",
+            "patterns":["Duration of world war2?","How many days/moths/years does world war2 took place?"],
+            "responses":["6 years and 1 day"]
+
+        },
+
+        {
+            "tag":"world war2 Between whom",
+            "patterns":["world war2 happened between whic countries?","world war2 happened between?"],
+            "responses":["The main combatants were the Axis powers(Germany,Italy, and Japan)and the Allies(France, Great Britain, the United States, the Soviet Union, and, to a lesser extent, China"]
+
+        },
+
+        {
+            "tag":"world war2 In which place",
+            "patterns":["world war2 occured in which places?","world war2 took place in which place?"],
+            "responses":["Europe, Pacific, Atlantic, Indian Ocean, South-East Asia, China, Japan, Middle-East,Mediterranean,North-Africa, Horn of Africa,Central Africa, Australia,North and South America"]
+
+        },
+        {
+            "tag":"germany united empire",
+            "patterns":["when did Germany became a united 'empire'?"],
+            "responses":["Germany became a united 'empire' in 1871,after it defeated France"]
+
+        },
+
+        {
+          "tag":"alliance of france,russia and great britain",
+          "patterns":["what was the alliance of France,Russia and Great Britian called?"],
+          "responses":["Triple Entente","The alliance between France,Russia and Great Britian was called the Triple Entente"]
+
+         },
+
+        {
+          "tag":"Britain 'Second Front",
+          "patterns":["when did Britain attempt to open up a 'Second Front'?"],
+          "responses":["Gallipoli in Turkey,It was a failure"]
+
+        },
+
+        {
+          "tag":"America world war",
+          "patterns":["when did America enter the First world war?"],
+          "responses":["1917"]
+
+        },
+
+        {
+          "tag":"world war 1 end",
+          "patterns":["when did first world war end?"],
+          "responses":["The First World War ended at 11am on 11 November 1918"]
+
+        },
+
+        {
+          "tag":"soldiers died",
+          "patterns":["How many soldiers died in the First World war?"],
+          "responses":["8 million"]
+
+        },
+
+        {
+          "tag":"Name of international organization",
+          "patterns":["what is the name the international organization created at the end of the First World war?"],
+          "responses":["The League of Nations"]
+
+        },
+
+        {
+          "tag":"led revolution in Russia",
+          "patterns":["Who led the revolution in Russia?"],
+          "responses":["Lenin led the revolution in Russia"]
+
+        },
+
+        {
+          "tag":"declaration of first world war",
+          "patterns":["which country made the first declaration of war in world war1?"],
+          "responses":["Austria-Hungary"]
+
+        },
+
+        {
+          "tag":"city Archduke Franz Ferdinansd",
+          "patterns":["In what city was Archduke Franz Ferdinand assassinated?"],
+          "responses":["Sarafevo"]
+
+        },
+
+        {
+          "tag":"Bosina-Herzegovina part of",
+          "patterns":["At the begining of World War 1,Bosina-Herzegovina was part of?"],
+          "responses":["Austria-Hungary"]
+
+        },
+
+        {
+          "tag":"Germanys attack",
+          "patterns":["Germany's attack upon which country directly provoked Britain to go to war?"],
+          "responses":["Belgium"]
+
+        },
+
+        {
+          "tag":"Germany's plan",
+          "patterns":["Germany's plan for fighting France and Russia was called?"],
+          "responses":["The Schlieffen plan"]
+
+        },
+        {
+          "tag":"states in India",
+          "patterns":["How many states are there in India?","Number of states in India?"],
+          "responses":["29 states"]
+        },
+
+        {
+            "tag":"Union territories",
+            "patterns":["How many union territories are there in India?","Number of union territories in India?"],
+            "responses":["7 Union territories"]
+        },
+
+        {
+            "tag":"names of union territories",
+            "patterns":["What are the union territories of India?"],
+            "responses":["Andaman and Nicobar Islands,Chandigarh,Dadra and Nagar Haveli and Daman and Diu,Delhi,Jammu and Kashmir,Ladakh,Lakshadweep,Puducherry"]
+        },
+
+        {
+            "tag":"smallest state",
+            "patterns":["what is the smallest state in India?","smallest state in India?"],
+            "responses":["Goa is the smallest state in India","Goa"]
+
+        },
+
+        {
+            "tag":"largest state",
+            "patterns":["what is the largest state in India?","largest state in India?"],
+            "responses":["Rajasthan is the largest state in India","Rajasthan"]
+        },
+
+        {
+            "tag":"smallest union territory",
+            "patterns":["what is the smallest union territory in India?","smallest union territory?"],
+            "responses":["Lakshadweep is the smallest union territory","Lakshadweep"]
+        },
+
+        {
+            "tag":"largest union territory",
+            "patterns":["what is the largest union territory?","largest union territory?"],
+            "responses":["Andaman and Nicobar Islands"]
+
+        },
+
+        {
+            "tag":"largest district",
+            "patterns":["which is the largest district in India?","what is the largest district in India?"],
+            "responses":["Kachchh(Gujarat)"]
+        },
+        {
+            "tag":"first prime minister",
+            "patterns":["who is the first prime minister of India?","First prime minister of India"],
+            "responses":["Jawaharlal Nehru"]
+
+        },
+
+        {
+              "tag":"first president india",
+              "patterns":["who is the first president of India","first president of Inida"],
+              "responses":["Dr.Rajendra Prasad"]
+
+        },
+
+        {
+              "tag":"first woman president",
+              "patterns":["who is the first woman president of India?"],
+              "responses":["Prathiba patil","Prathiba Patil is the only woman president"]
+
+        },
+
+        {
+              "tag":"present president",
+              "patterns":["who is the present current president of India?","present current president of India"],
+              "responses":["Ram Nath Kovind"]
+
+        },
+
+        {
+              "tag":"present prime minister",
+              "patterns":["who is the present/current prime minister of India?","present current prime minister of India"],
+              "responses":["Narendra Modi"]
+
+        },
+
+        {
+              "tag":"saltsatyagraha",
+              "patterns":["when did the dandi march/salt sathyagraha begin and ended?","salt sathyagraha started or ended"],
+              "responses":[" begin 12 March 1930 and ended in 5 April 1930"]
+
+        },
+
+        {
+          "tag": "",
+          "patterns": [""],
+          "responses": [""]
+
+        }
+]
+}
