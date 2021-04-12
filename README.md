@@ -18,5 +18,5 @@ and more and more features like:-
 which can be interacted in one interface.
 
 **NOTE:**
-All the above keywords have to typed before typing anything.
+All the above keywords have to be typed before typing anything.
 
