@@ -334,12 +334,56 @@
               "responses":[" begin 12 March 1930 and ended in 5 April 1930"]
 
         },
+        {
+          "tag":"ug",
+          "patterns":["What is the full form of UG?","Abbreviation of ug?","UG means?"],
+          "responses":["Under Graduation"]
+        },
 
         {
-          "tag": "",
-          "patterns": [""],
-          "responses": [""]
+          "tag":"pg",
+        "patterns":["What is the full form of PG?","Abbreviation of pg?","PG means?"],
+        "responses":["Post Graduation"]
+        },
 
+        {"tag":"mba",
+        "patterns":["What is the full form of MBA?","Abbreviation of mba?","MBA means?"],
+        "responses":["Master of Business Administration"]
+        },
+
+        {"tag":"btech",
+        "patterns":["What is the full form of B.Tech?","Abbreviation of btech?","B.Tech means?"],
+        "responses":["Bachelor of Technology"]
+        },
+
+        {"tag":"mtech",
+        "patterns":["What is the full form of M.Tech?","Abbreviation of mtech?","M.Tech means?"],
+        "responses":["Master of Technology"]
+        },
+
+        {"tag":"bba",
+        "patterns":["What is the full form of BBA?","Abbreviation of bba?","BBA means?"],
+        "responses":["Bachelor of Business Administration"]
+        },
+
+        {"tag":"bbm",
+        "patterns":["What is the full form of BBM?","Abbreviation of bbm?","BBM means?"],
+        "responses":["Bachelor of Business Management"]
+        },
+
+        {"tag":"cse",
+        "patterns":["What is the full form of CSE?","Abbreviation of cse?","CSE means?"],
+        "responses":["Computer Science and Engineering"]
+        },
+
+        {"tag":"eee",
+        "patterns":["What is the full form of EEE?","Abbreviation of eee?","EEE means?"],
+        "responses":["Electrical and Electronics Engineering"]
+        },
+
+        {"tag":"ece",
+        "patterns":["full form of ECE?","Abbreviation of ECE?","abbreviation of ece","ECE means?"],
+        "responses":["Electronics and Communication Engineering"]
         }
 ]
 }
